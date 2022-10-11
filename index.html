@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-    <form id="elForm">
-        <label>Nombre:</label>
-        <br>
-        <input type="text" id="inputNombre">
-        <br>
-        <label>Fecha de nacimiento:</label>
-        <br>
-        <input type="date" id="inputFechaNac">
-        <br>
-        <label>Tu mensaje</label>
-        <br>
-        <textarea cols="20" rows="5"></textarea>
-        <br>
-        <input type="submit">
-        <input type="reset">
-    </form>
-    <script src="js/12-objetos.js"></script>
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <div id="caja">
+            <h1 class="verde">Manipulando el DOM</h1>
+            <h2>Se viene cada vez más interesante e.e</h2>
+            <p class="verde negrita">PÁRRAFO DENTRO DE CAJA Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt quis eaque modi molestias, reprehenderit earum exercitationem quia labore. Maxime adipisci iure amet esse fugiat repudiandae corporis dolor non consequatur.</p>
+        </div>
+        <p p class="verde negrita">PÁRRAFO FUERA DE CAJA Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio incidunt quis eaque modi molestias, reprehenderit earum exercitationem quia labore. Maxime adipisci iure amet esse fugiat repudiandae corporis dolor non consequatur.</p>
+        <form id="elForm">
+            <label class="verde">Nombre:</label>
+            <br>
+            <input type="text" id="inputNombre">
+            <br>
+            <label>Fecha de nacimiento:</label>
+            <br>
+            <input type="date" id="inputFechaNac" class="verde">
+            <br>
+            <label>Tu mensaje</label>
+            <br>
+            <textarea cols="20" rows="5"></textarea>
+            <br>
+            <input type="submit">
+            <input type="reset">
+        </form>
+        <script src="js/13-accesoAlDOM.js"></script>
+    </body>
 </html>
